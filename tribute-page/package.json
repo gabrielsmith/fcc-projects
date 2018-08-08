@@ -1,0 +1,19 @@
+{
+  "name": "tribute-page",
+  "version": "1.0.0",
+  "description": "A tribute page to the godfather of death metal, Chuck Schuldiner",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node_modules/node-sass/bin/node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "tribute",
+    "freecodecamp",
+    "fcc"
+  ],
+  "author": "Gabriel Smith",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
