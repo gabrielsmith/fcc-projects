@@ -9,51 +9,93 @@
 
   <title>Chuck Schuldiner Tribute Page</title>
   <link href="https://fonts.googleapis.com/css?family=Metal+Mania|Nanum+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
   <header>
-    <h1>Chuck Schuldiner</h1>
-    <h2>The Godfather of Death Metal</h2>
+    <h1 id="title">Chuck Schuldiner</h1>
+    <h2 id="tribute-info">The Godfather of Death Metal</h2>
   </header>
   <div id="img-div">
     <img id="image" src="./assets/band_death.jpg" alt="">
     <p id="img-caption">Schuldiner, in red, together with his bandmates.</p>
   </div>
-  <main>
-    <h3>Timeline of Schuldiner's life</h3>
-    <ul>
-      <li>
-        <strong>1967 -</strong> Born on May 13, on Long Island, New York.</li>
-      <li>
-        <strong>1968 -</strong> His family moved to Florida.</li>
-      <li>
-        <strong>1976 -</strong> Aged 9, Schuldiner started playing acoustic guitar.</li>
-      <li>
-        <strong>1983 -</strong> Chuck formed Mantas, the band which would later become Death. The members were Schuldiner and Rick
-        Rozz as guitarists and Kam Lee as both the drummer and vocalist.</li>
-      <li>
-        <strong>1986 -</strong> Moved to Toronto and temporarily joined the Canadian band Slaughter.</li>
-      <li>
-        <strong>1987 -</strong> Death released their first album, Scream Bloody Gore.</li>
-      <li>
-        <strong>1988 -</strong> With the line-up of former Mantas guitarist Rick Rozz, Terry Butler on bass and Bill Andrews on drums,
-        Schuldiner releases Death's second album, Leprosy</li>
-      <li>
-        <strong>1990 -</strong> The album Spiritual Healing is released, with James Murphy replacing Rick Rozz.</li>
-      <li>
-        <strong>1991 -</strong> Death's breakthroug album, Human, is released. It features a more technical and progressive style
-        than it's predecessors.</li>
-      <li>
-        <strong>1993 -</strong> Death releases Individual Thought Patterns, to much critical acclaim.</li>
-      <li>
-        <strong>1995 -</strong> The album Symbolic is released.</li>
-      <li>
-        <strong>1998 -</strong> Death releases it's seventh and final album.</li>
-      <li>
-        <strong>2001 -</strong> On December 13, Chuck Schuldiner died at the age of 34.</li>
-    </ul>
+  <main id="main">
+    <h3>Schuldiner's work</h3>
+
+    <!--
+      Spotify links
+      Scream Bloody Gore: https://open.spotify.com/album/0PvGbpxBh7faAVbeZM4sIm
+      Leprosy: https://open.spotify.com/album/4EQcPArSq6dm0k4QWzpLBF
+      Spiritual Healing: https://open.spotify.com/album/42ACFKO2FvLOIUgrXqewTw
+      Human: https://open.spotify.com/album/6AvvqTkgRqq3L4bD9qYfjD
+      Individual Thought Patterns: https://open.spotify.com/album/56gbykNskCFungP4TSPI2y
+      Symbolic: https://open.spotify.com/album/4YACrpVtdpoFocBPBeLbzO
+      The Sound of Perseverance: https://open.spotify.com/album/0p6DxsQOhQ5qiBnUu9G1PB
+    -->
+    <!-- 
+      Youtube links
+      Scream Bloody Gore: https://www.youtube.com/watch?v=T-ZH-OvbQyg
+      Leprosy: https://www.youtube.com/watch?v=5zQhJNsWBWY
+      Spiritual Healing: https://www.youtube.com/watch?v=-__VtHhC6Tk
+      Human: https://www.youtube.com/watch?v=EzvtfbqJeIY
+      Individual Thought Patterns: https://www.youtube.com/watch?v=yjLIwidBubg
+      Symbolic: 
+      The Sound of Perseverance: https://www.youtube.com/watch?v=XjB101k2Bog
+    -->
+    <div class="album-div" id="scream-bloody-gore">
+      <img src="./assets/album_covers/scream_bloody_gore.jpg" alt="Cover of the album Scream Bloody Gore" class="album-cover">
+      <div class="album-desc"></div>
+      <a href="https://www.youtube.com/watch?v=T-ZH-OvbQyg" id="youtube-link"><i class="fab fa-youtube"></i></a>
+      <a href="https://open.spotify.com/album/0PvGbpxBh7faAVbeZM4sIm" id="spotify-link"><i class="fab fa-spotify"></i></a>
+    </div>
+
+    <div class="album-div" id="leprosy">
+      <img src="./assets/album_covers/leprosy.jpg" alt="Cover of the album Leprosy" class="album-cover">
+      <div class="album-desc"></div>
+      <a href="https://www.youtube.com/watch?v=5zQhJNsWBWY" id="youtube-link"><i class="fab fa-youtube"></i></a>
+      <a href="https://open.spotify.com/album/4EQcPArSq6dm0k4QWzpLBF" id="spotify-link"><i class="fab fa-spotify"></i></a>
+    </div>
+
+    <div class="album-div" id="spiritual-healing">
+      <img src="./assets/album_covers/spiritual_healing.jpg" alt="Cover of the album Spiritual Healing" class="album-cover">
+      <div class="album-desc"></div>
+      <a href="https://www.youtube.com/watch?v=-__VtHhC6Tk" id="youtube-link"><i class="fab fa-youtube"></i></a>
+      <a href="https://open.spotify.com/album/42ACFKO2FvLOIUgrXqewTw" id="spotify-link"><i class="fab fa-spotify"></i></a>
+    </div>
+
+    <div class="album-div" id="human">
+      <img src="./assets/album_covers/human.jpg" alt="Cover of the album Human" class="album-cover">
+      <div class="album-desc"></div>
+      <a href="https://www.youtube.com/watch?v=EzvtfbqJeIY" id="youtube-link"><i class="fab fa-youtube"></i></a>
+      <a href="https://open.spotify.com/album/6AvvqTkgRqq3L4bD9qYfjD" id="spotify-link"><i class="fab fa-spotify"></i></a>
+    </div>
+
+    <div class="album-div" id="individual-thought-patterns">
+      <img src="./assets/album_covers/individual_thought_patterns.jpg" alt="Cover of the album Individual Thought Patterns" class="album-cover">
+      <div class="album-desc"></div>
+      <a href="https://www.youtube.com/watch?v=yjLIwidBubg" id="youtube-link"><i class="fab fa-youtube"></i></a>
+      <a href="https://open.spotify.com/album/56gbykNskCFungP4TSPI2y" id="spotify-link"><i class="fab fa-spotify"></i></a>
+    </div>
+
+    <div class="album-div" id="symbolic">
+      <img src="./assets/album_covers/symbolic.jpg" alt="Cover of the album Symbolic" class="album-cover">
+      <div class="album-desc"></div>
+      <a href="https://open.spotify.com/album/4YACrpVtdpoFocBPBeLbzO" id="spotify-link"><i class="fab fa-spotify"></i></a>
+    </div>
+
+    <div class="album-div" id="the-sound-of-perserverance">
+      <img src="./assets/album_covers/sound_of_perseverance.jpg" alt="Cover of the album The Sound of Perseverance" class="album-cover">
+      <div class="album-desc"></div>
+      <a href="https://www.youtube.com/watch?v=XjB101k2Bog" id="youtube-link"><i class="fab fa-youtube"></i></a>
+      <a href="https://open.spotify.com/album/0p6DxsQOhQ5qiBnUu9G1PB" id="spotify-link"><i class="fab fa-spotify"></i></a>
+    </div>
+
   </main>
   <footer>
 
